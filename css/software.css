@@ -5,7 +5,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #8cef71;
+    background-color: #87f668;
 }
 
 header {
@@ -14,6 +14,7 @@ header {
     left: 0;
     width: 20%; /* match the width of the sidebar */
     height: 60px; /* adjust the height as needed */
+    text-transform: uppercase;
 
     color: rgb(255, 13, 13);
     padding: 0;
@@ -97,6 +98,19 @@ button#startQuiz {
 
 button#startQuiz:hover {
     background-color: #2b3d66;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
