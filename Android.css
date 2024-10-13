@@ -157,11 +157,7 @@ h3 {
     background-color: #ffebee;
 }
 
-ul li::before {
-    content: "•";
-    color: #4caf50;
-    margin-right: 8px;
-}
+
 
 
 
@@ -195,23 +191,26 @@ h4{
 
 
 /* Base styles for the hamburger button */
-.hamburger {
-    display: none;
-    font-size: 30px;
-    color: white;
+#toggleMenu {
+    display: block;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
     position: fixed; /* Fixed position */
     top: 0px;
     left: 0px;
     cursor: pointer;
     z-index: 1000; /* Ensure it stays above other elements */
+
+    
 }
 
 /* Adjust for smaller screens */
 @media screen and (max-width: 768px) {
 
-    .hamburger {
+    #toggleMenu {
         display: block;
         position: fixed;
+
     }
 
     nav.sidebar {
