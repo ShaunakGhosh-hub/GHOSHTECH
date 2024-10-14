@@ -28,6 +28,10 @@ section {
 img {
   width: 100%;
 }
+h6{
+  color: rgb(109, 255, 4);
+  font-size: 25px;
+}
 
 header {
   position: fixed;
@@ -83,7 +87,7 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background: #b4ff4c36;
+  background: #b5a0883d;
   gap: 1rem;
 }
 
